@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57" started-at="2023-11-02T22:56:31Z" finished-at="2023-11-02T22:56:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57" started-at="2023-11-02T22:56:31Z" finished-at="2023-11-02T22:56:31Z">
+      <class name="com.SmokeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.SmokeTest@402f32ff]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.SmokeTest@402f32ff]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="buyAShirt()[pri:0, instance:com.SmokeTest@402f32ff]" name="buyAShirt" duration-ms="1" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyAShirt -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.SmokeTest@402f32ff]" name="afterClass" is-config="true" duration-ms="1" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.SmokeTest@402f32ff]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.SmokeTest -->
+      <class name="com.UnitTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.UnitTest@573f2bb1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.UnitTest@573f2bb1]" name="signIn" duration-ms="3" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.UnitTest@573f2bb1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.UnitTest@573f2bb1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.UnitTest@573f2bb1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.UnitTest@573f2bb1]" name="signOut" duration-ms="4" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.UnitTest@573f2bb1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.UnitTest@573f2bb1]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.UnitTest -->
+      <class name="com.DBTest">
+        <test-method status="FAIL" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.DBTest@32e6e9c3]" name="f" duration-ms="0" started-at="2023-11-02T18:56:31Z" data-provider="dp" finished-at="2023-11-02T18:56:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.DBTest.f(java.lang.Integer,java.lang.String) requires a @DataProvider named : dp]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.DBTest.f(java.lang.Integer,java.lang.String) requires a @DataProvider named : dp
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:268)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:417)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.DBTest -->
+      <class name="com.BaseTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.BaseTest@48eff760]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.BaseTest@48eff760]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.BaseTest@48eff760]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.BaseTest@48eff760]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-11-02T18:56:31Z" finished-at="2023-11-02T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

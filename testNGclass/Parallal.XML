@@ -1,0 +1,26 @@
+<suite name="parallely" parallel="test">
+	<test name="test3">
+		<classes>
+			<class name="com.SmokeTest">
+
+			</class>
+			<class name="com.UnitTest">
+			<method>
+			<include name = "login"> </include>
+			</method>
+			</class>
+
+		</classes>
+
+	</test>
+	<test name="test3">
+		<classes>
+			<class name="com.DBTest">
+
+			</class>
+			
+
+		</classes>
+
+	</test>
+</suite>

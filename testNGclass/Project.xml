@@ -1,0 +1,20 @@
+<suite name="suite name could be anything">
+	<test name="test name could be anything">
+		<classes>
+			<class name="class name will be always package name.class name">
+				<methods>
+					<include name="method name, the one you want to run">
+
+					</include>
+					<exclude name="whatever the method you don't wanna run">
+
+					</exclude>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="test name cannot be same">
+
+	</test>
+</suite>

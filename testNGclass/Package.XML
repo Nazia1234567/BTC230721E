@@ -1,0 +1,20 @@
+<suite name="package">
+	<test name="test1">
+		<groups>
+			<run>
+				<include name="backend">
+
+				</include>
+
+			</run>
+
+		</groups>
+		<packages>
+			<package name="com">
+
+
+			</package>
+
+		</packages>
+	</test>
+</suite>
